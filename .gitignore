@@ -1,0 +1,7 @@
+fasta/*
+result/*
+data/**/*.hash
+data/**/*.txt
+data/**/*.csv
+data/*
+forGaia/**/*.txt

@@ -1,0 +1,115 @@
+grep microcosm log |grep mmu-miR |cut -f 12,13|sort -u > microcosm_problem
+
+1. Microcosm 
+
+REF:
+Griffiths-Jones S., Saini HK., van Dongen S., Enright AJ. (2008)
+miRBase: tools for microRNA genomics.
+Nucleic Acids Res 36(Database issue): D154-8
+
+URL: http://www.ebi.ac.uk/enright-srv/microcosm/htdocs/targets/v5
+
+2. TargetScan
+
+REF:
+Robin C Friedman, Kyle Kai-How Farh, Christopher B Burge, David P Bartel.     
+Most Mammalian mRNAs Are Conserved Targets of MicroRNAs
+Genome Research, 19:92-105 (2009)
+
+URL: http://www.targetscan.org/mmu_61
+
+3. picTar7 and 4. picTar13
+
+Nature Genetics  37, 495 - 500 (2005) 
+Published online: 3 April 2005; | doi:10.1038/ng1536
+Combinatorial microRNA target predictions
+
+Azra Krek1, 2, 4, Dominic Grün1, 4, Matthew N Poy3, 4, Rachel Wolf1, Lauren Rosenberg1, Eric J Epstein3, Philip MacMenamin1, Isabelle da Piedade1, Kristin C Gunsalus1, Markus Stoffel3 & Nikolaus Rajewsky1
+
+
+URL:http://pictar.mdc-berlin.de/
+
+Note: this data is obtained from UCSB genome browser by using one of its tools, i.e  Table Browser
+
+Table Browser URL: http://genome.ucsc.edu/cgi-bin/hgTables
+
+5. microRNA.org
+
+REF:
+The microRNA.org resource: targets and expression. Betel D, Wilson M, Gabow A, Marks DS, Sander C., Nucleic A        cids Res. 2008 Jan; 36(Database Issue): D149-53.
+
+URL: http://www.microrna.org
+
+6. miRDB
+
+REFs:
+Xiaowei Wang and Issam M. El Naqa (2008) Prediction of both conserved and nonconserved microRNA targets in animals. Bioinformatics 24(3):325-332.
+
+Xiaowei Wang (2008) miRDB: a microRNA target prediction and functional annotation database with a wiki interface. RNA 14(6):1012-1017
+
+URL:  http://mirdb.org
+
+7. miRGen
+
+REF:
+M. Megraw, P. Sethupathy, B. Corda, and A.G. Hatzigeorgiou (2006). miRGen: A database for the study of animal microRNA genomic organization and function. Nucleic Acids Research, 35: D149-D155.
+
+URL:  http://www.diana.pcbi.upenn.edu/miRGen/v3/miRGen.html
+
+8. miRNAMap2
+
+REF:
+Hsu SD, Chu CH, Tsou AP, Chen SJ, Chen HC, Hsu PW, Wong YH, Chen YH, Chen GH, Huang HD (2008) 'miRNAMap 2.0: genomic maps of microRNAs in metazoan genomes.' Nucleic Acids Res. 2008 Jan;36(Database issue):D165-9.
+
+URL: http://mirnamap.mbc.nctu.edu.tw 
+
+9. miRTarBase and 10.  miRTarBase WR (V)*
+
+REF:
+miRTarBase: a database curates experimentally validated microRNA-target interactions
+Hsu SD, Lin FM, Wu WY, Liang C, Huang WC, Chan WL, Tsai WT, Chen GZ, Lee CJ, Chiu CM, Chien CH, Wu MC, Huang CY, Tsou AP, Huang HD. (2011) Nucleic acids research.
+
+URL: http://mirtarbase.mbc.nctu.edu.tw
+
+Note: 
+* Supported by strong experimental evidences (Reporter assay or Western blot)
+(V) : Validated
+
+
+11. PITA Top and 12. PITA All#
+
+No publication reference, but use the following url
+http://genie.weizmann.ac.il/pubs/mir07/mir07_data.html
+
+Note:
+#PITA Top
+The top predictions having a full match 7- or 8-mer seed and a conservation score of 0.9 or higher                  
+
+PITA All
+The complete list of predictions.
+
+13. RepTar
+
+REF:
+Elefant, N., Berger, A., Shein, H., Hofree, M., Margalit, H., and Altuvia, Y. (2010) RepTar: a database of predicted cellular targets of host and viral miRNAs. Nucl. Acids Res. (Database issue)
+
+URL: http://bioinformatics.ekmd.huji.ac.il/reptar
+
+14. starBase
+
+REF:
+Yang JH, Li JH, Shao P, Zhou H, Chen YQ, and Qu LH.
+starBase: a database for exploring microRNA-mRNA interaction maps from Argonaute CLIP-Seq and Degradome-Seq data.
+Nucleic Acids Res. 2011;39:D202-D209. First published online: October 30, 2010
+
+URL: http://starbase.sysu.edu.cn
+
+15. TarBase(V)+
+
+REF:
+The database of experimentally supported targets: a functional update of TarBase. (Papadopoulos GL, Reczko M, Simossis VA, Sethupathy P, Hatzigeorgiou AG.), Nucleic Acids Res. 2009 Jan;37(Database issue):D155-8. Epub 2008 Oct 27.
+
+URL: http://diana.cslab.ece.ntua.gr/tarbase
+
+Note:
++(V): These are experimentally validated targets
